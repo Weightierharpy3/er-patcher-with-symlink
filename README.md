@@ -1,7 +1,7 @@
 # Elden Ring Proton Patcher
 
 
-A tool aimed at enhancing the experience when playing the game on linux through proton or natively on windows.
+A tool aimed at enhancing the experience when playing the game on linux through proton.
 
 ## Warning
 
@@ -9,7 +9,7 @@ A tool aimed at enhancing the experience when playing the game on linux through 
 
 ## Dependencies
 
-- Python >= 3.8
+- Python >= 3.10
 
 ## Usage
 
@@ -37,15 +37,6 @@ Note: There might be some distros (e.g. older Ubuntu releases) that launch pytho
 | `-a` or `--increase-animation-distance` | Fix low frame rate animations at screen<br>edges or for distant entities.                                 |
 | `-s` or `--skip-intro`                  | Skip intro logos at game start.                                                                           |
 | `-f` or `--remove-60hz-fullscreen`      | Remove the 60Hz limit in fullscreen<br>mode (not needed with proton).                                     |
-
-
-## Windows Support
-
-The patcher works just as well on windows. The following launch option line works in case you e.g. installed Python from Microsoft Store:
-
-> `python er-patcher --rate 165 --all -- %command%`
-
-Note: This spawns a python console which will close by itself after the game has finished running. If you find this annoying you can try using `pythonw` instead. In any case `python` needs to be in PATH for windows to find it.
 
 ## How it works
 
